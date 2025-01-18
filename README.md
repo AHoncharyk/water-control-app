@@ -37,4 +37,4 @@ The Water Control App successfully met its objectives, providing users with an i
 
 Demo
 
-https://ahoncharyk.github.io/water-control/
+https://ahoncharyk.github.io/water-control-app/
