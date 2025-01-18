@@ -1,0 +1,193 @@
+.user_info_wrapper {
+  text-align: center;
+  margin-top: 5%;
+  color: #274685;
+  font-family: "Roboto", sans-serif;
+}
+
+.user_info_container {
+  margin-top: 5%;
+  display: flex;
+  gap: 15%;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.gender {
+  display: grid;
+  transition: all 1s;
+}
+
+.gender:hover {
+  transform: scale(1.2);
+}
+
+.active {
+  padding: 1%;
+  border: 1px solid blue;
+  border-radius: 20px;
+}
+
+.images {
+  width: 250px;
+}
+
+.info_input {
+  margin-top: 55%;
+}
+
+.clock {
+  background-color: #5495f8;
+  border: 1px solid #0d6efd;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.clock svg {
+  fill: blue !important;
+}
+
+.btn_next {
+  float: right;
+  margin-top: 5%;
+  margin-right: 15%;
+}
+
+.prev_next_buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.setup_header {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  gap: 5%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.setup_btn {
+  margin-top: 5%;
+  background-color: darkgray;
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 1%;
+  transition: all 0.5s;
+  display: flex;
+  justify-content: space-around;
+  width: 7%;
+}
+
+.setup_active {
+  background-color: #5495f8;
+  border: 1px solid blue;
+}
+
+.setup_submit {
+  background-color: limegreen;
+  border: 1px solid green;
+}
+
+.setup_btn:hover {
+  transform: scale(1.5);
+}
+
+.gender_icon {
+  width: 30px;
+  height: 30px;
+}
+
+.gender_male {
+  color: blue;
+}
+
+.gender_female {
+  color: darkorchid;
+}
+
+.sun {
+  color: darkorange;
+}
+
+.moon {
+  color: blue;
+}
+
+@media (min-width: 581px) and (max-width: 768px) {
+  .setup_header {
+    flex-wrap: wrap;
+    align-content: start;
+    justify-content: space-around;
+    height: 20vh;
+    gap: 3%;
+  }
+
+  .setup_btn {
+    width: 18%;
+  }
+
+  .setup_btn:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .user_info_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 50%;
+  }
+
+  .user_gender_container {
+    flex-direction: row;
+    gap: 1%;
+  }
+
+  .gender_img {
+    width: 200px;
+  }
+
+  .gender {
+    justify-content: center;
+    transition: none;
+  }
+
+  .gender:hover {
+    transform: none;
+  }
+
+  .female {
+    margin-top: 5%;
+  }
+
+  .active {
+    margin: 0;
+  }
+
+  .info_input {
+    margin-top: 15%;
+  }
+
+  .clock {
+    margin-top: 7%;
+  }
+
+  .setup_header {
+    flex-wrap: wrap;
+    align-content: start;
+    justify-content: space-around;
+    height: 20vh;
+    gap: 3%;
+  }
+
+  .setup_btn {
+    width: 18%;
+  }
+
+  .setup_btn:hover {
+    transform: scale(1.2);
+  }
+}

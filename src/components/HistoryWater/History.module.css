@@ -1,0 +1,32 @@
+.container {
+  position: relative;
+  margin-top: 10%;
+  font-family: "Roboto", sans-serif;
+}
+
+.history_info {
+  text-align: center;
+  color: #10418a;
+}
+
+.clear_history {
+  margin-top: 5%;
+  margin-bottom: 20%;
+}
+
+.history {
+  max-height: 300px;
+  overflow: auto;
+}
+
+@media (min-width: 769px) and (max-width: 810px) {
+  .container {
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin-top: 0;
+  }
+}
